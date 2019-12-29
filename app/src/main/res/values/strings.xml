@@ -1,0 +1,128 @@
+<resources>
+    <string name="app_name">Restaurant Finder</string>
+    <string name="search">Search</string>
+    <string name="menu_home">Home</string>
+    <string name="menu_profile">Profile</string>
+    <string name="menu_explore">Explore</string>
+    <string name="menu_order">My Order</string>
+    <string name="restaurant_name">Restaurant Name</string>
+    <string name="distance">Distance</string>
+    <string name="address">Address</string>
+    <string name="phone_no">Phone No.</string>
+    <string name="restaurant_image">restaurant image</string>
+    <string name="there_are_lots_of_place_to_eat">There are lots of places to eat.</string>
+    <string name="welcome">Welcome</string>
+    <string name="email">Email</string>
+    <string name="password">Password</string>
+    <string name="forgot_password">Forgot Password?</string>
+    <string name="login">Login</string>
+    <string name="or_sign_in_with">Or, sign in with</string>
+    <string name="don_t_have_account">Don\'t have account?</string>
+    <string name="sign_up">Sign Up</string>
+    <string name="reset_password">Reset Password</string>
+    <string name="create_a_new_account">Create an account</string>
+    <string name="fascinating">Fascinationg!</string>
+    <string name="confirm_password">Confirm password</string>
+    <string name="by_clicking_sign_up_you_agree_with_our_terms_conditions">By clicking sign up you agree with our terms conditions.</string>
+    <string name="phone_number">Phone number</string>
+    <string name="address_found">Address Found</string>
+    <string name="no_address_found">No address found</string>
+    <string name="invalid_lat_long_used">invalid lat long used</string>
+    <string name="service_not_available">Service not available</string>
+    <string name="current_location">Current Location</string>
+    <string name="restaurant_information">Restaurant Information</string>
+
+    <string name="food_menu_json">
+		{\"results\": [
+		{
+			\"id\":1,
+			\"name\":\"Chicken Sizzler\",
+			\"description\":\"Chicken sizzler is a hot dinner party recipe, here the boneless chicken is marinated in spices and soy sauce, cooked on a proper flame and served on a hot.\",
+			\"price\":220,
+			\"rating\":4.2,
+			\"image_url\":\"ic_chicken_sizzler\",
+			\"quantity\":0
+		},
+		{
+			\"id\":2,
+			\"name\":\"Chicken Fried Rice\",
+			\"description\":\"Chicken Fried Rice with seasoned chicken and vegetables tossed in a Chinese sauce.\",
+			\"price\":100,
+			\"rating\":4.3,
+			\"image_url\":\"ic_chicken_fried_rice\",
+			\"quantity\":0
+		},
+		{
+			\"id\":3,
+			\"name\":\"Veg Fried Rice\",
+			\"description\":\"Fried Rice with seasoned vegetables tossed in a Chinese sauce.\",
+			\"price\":70,
+			\"rating\":4.0,
+			\"image_url\":\"ic_veg_fried_rice\",
+			\"quantity\":0
+		},
+		{
+			\"id\":4,
+			\"name\":\"Fried Chicken\",
+			\"description\":\"chicken pieces which have been coated in a seasoned batter and pan-fried, deep fried.\",
+			\"price\":350,
+			\"rating\":4.5,
+			\"image_url\":\"ic_fried_chicken\",
+			\"quantity\":0
+		},
+		{
+			\"id\":5,
+			\"name\":\"Pork steak\",
+			\"description\":\"served with mashed potato, sauteed vegetables.\",
+			\"price\":450,
+			\"rating\":4.5,
+			\"image_url\":\"ic_pork_steak\",
+			\"quantity\":0
+		},
+		{
+			\"id\":6,
+			\"name\":\"Gorkhali Curry with Rice\",
+			\"description\":\"Chicken|Mutton served with papad and salad.\",
+			\"price\":380,
+			\"rating\":5.0,
+			\"image_url\":\"ic_Gorkhali_rice\",
+			\"quantity\":0
+		},
+		{
+			\"id\":7,
+			\"name\":\"Mo:Mo Platter\",
+			\"description\":\"Mix of Chicken kothey, Veg steam, Chicken fried and Chicken C MoMos.\",
+			\"price\":180,
+			\"rating\":3.7,
+			\"image_url\":\"ic_momo_platter\",
+			\"quantity\":0
+		},
+		{
+			\"id\":8,
+			\"name\":\"Chicken Pizza\",
+			\"description\":\"Delicious chicken pizza.\",
+			\"price\":220,
+			\"rating\":4.7,
+			\"image_url\":\"ic_chicken_pizza\",
+			\"quantity\":0
+		},
+		{
+			\"id\":9,
+			\"name\":\"Napolitana Pasta\",
+			\"description\":\"Delicious pasta served with chicken topings.\",
+			\"price\":250,
+			\"rating\":4.3,
+			\"image_url\":\"ic_napolitana_pasta\",
+			\"quantity\":0
+		},
+		{
+			\"id\":10,
+			\"name\":\"Crispy Chicken Burger\",
+			\"description\":\"Delicious and crispy chicken burger.\",
+			\"price\":120,
+			\"rating\":4.3,
+			\"image_url\":\"ic_chicken_burger\",
+			\"quantity\":0
+		}]}
+    </string>
+</resources>

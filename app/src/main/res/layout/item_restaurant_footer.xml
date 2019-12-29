@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    app:cardElevation="3dp"
+    app:cardUseCompatPadding="true"
+    app:cardCornerRadius="5dp"
+    app:contentPadding="5dp"
+    android:id="@+id/cv_parent"
+    app:cardBackgroundColor="@color/cardBackgroundColor">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <androidx.cardview.widget.CardView
+            android:id="@+id/restaurant_image_view_parent"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            app:cardBackgroundColor="#99b3b1b1"
+            app:cardCornerRadius="5dp"
+            app:cardElevation="3dp"
+            android:layout_margin="2dp"
+            android:layout_gravity="center"
+            app:cardUseCompatPadding="false">
+
+            <ImageView
+                android:id="@+id/restaurant_image_view"
+                android:layout_width="match_parent"
+                android:layout_height="110dp"
+                android:layout_gravity="center"
+                android:scaleType="centerCrop"
+                android:contentDescription="@string/restaurant_image" />
+
+        </androidx.cardview.widget.CardView>
+
+        <RelativeLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="3"
+            android:layout_marginStart="5dp"
+            android:layout_gravity="center"
+            android:padding="5dp">
+
+            <TextView
+                android:id="@+id/name"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/restaurant_name"
+                android:layout_marginTop="3dp"
+                android:fontFamily="@font/normal"
+                android:includeFontPadding="false"
+                android:maxLines="3"
+                android:textStyle="bold"
+                android:textColor="#000000"
+                android:textSize="16sp" />
+
+            <RatingBar
+                android:id="@+id/restaurant_rating"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_below="@id/name"
+                android:layout_marginTop="5dp"
+                android:isIndicator="true"
+                android:numStars="5"
+                android:stepSize="1"
+                android:clickable="false"
+                android:theme="@style/RatingBar"
+                style="?android:attr/ratingBarStyleSmall" />
+
+            <TextView
+                android:id="@+id/address"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:text="@string/address"
+                android:textColor="#000000"
+                android:fontFamily="@font/normal"
+                android:includeFontPadding="false"
+                android:layout_below="@id/restaurant_rating" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/distance"
+                android:textColor="#000000"
+                android:gravity="center"
+                android:layout_below="@id/address"
+                android:fontFamily="@font/normal"
+                android:includeFontPadding="false"
+                android:layout_marginTop="5dp"
+                android:id="@+id/distance" />
+
+            <TextView
+                android:text="@string/phone_no"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="#000000"
+                android:id="@+id/phone"
+                android:layout_below="@+id/address"
+                android:layout_marginTop="5dp"
+                android:visibility="gone"
+                android:layout_marginBottom="2dp" />
+        </RelativeLayout>
+
+    </LinearLayout>
+
+</androidx.cardview.widget.CardView>
